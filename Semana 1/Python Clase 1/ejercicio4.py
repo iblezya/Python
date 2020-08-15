@@ -1,0 +1,8 @@
+print("Este programa cálcula el área de un trapecio recto")
+print("="*50)
+base_mayor = float(input("Ingrese la base mayor(m): "))
+base_menor = float(input("Ingrese la base menor(m): "))
+altura = float(input("Ingrese la altura(m): "))
+area = (base_mayor + base_menor)*(altura/2)
+print("="*50)
+print("El área del trapecio recto es: ",area," m2")

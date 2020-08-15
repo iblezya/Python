@@ -1,0 +1,10 @@
+import math
+print("Este programa cálcula la distancia entre dos puntos en el plano cartesiano")
+print("="*50)
+x1 = float(input("Ingrese la abscisa del primer punto: "))
+y1 = float(input("Ingrese la coordenada del primer punto: "))
+x2 = float(input("Ingrese la abscisa del segundo punto: "))
+y2 = float(input("Ingrese la coordenada del segundo punto: "))
+distancia = math.sqrt((y2 - y1)**2 + (x2 - x1)**2)
+print("="*50)
+print("La distancia entre los dos puntos es: ",distancia)
